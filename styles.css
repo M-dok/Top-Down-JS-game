@@ -1,0 +1,56 @@
+canvas{
+    display: block;
+    margin: 1em auto;
+    image-rendering: crisp-edges;
+    background-image: url("../ca2/sprites/Map.png");
+}
+
+.controls{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+}
+p{text-align: center;}
+h2{
+    margin: auto;
+    text-align: center;
+}
+h1{
+    margin: auto;
+    text-align: center;
+}
+
+#play{
+    margin: auto;
+    padding: 0.5em;
+}
+
+#move{
+    border: 1px solid black;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#attack{
+    border: 1px solid black;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#power{
+    border: 1px solid black;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    width: 50%;
+}
+
+#power ul{
+    display: inline-block;
+    width: 50%;
+}
+
+#power img{
+    display: inline;
+}
